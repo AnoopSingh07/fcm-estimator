@@ -78,7 +78,7 @@
 
 The application is deployed on Netlify. You can access the live version at:
 
-[https://falseceilingmaterialestimator.netlify.app/](https://falseceilingmaterialestimator.netlify.app/)
+[[https://falseceilingmaterialestimator.netlify.app/](https://fcm-estimator.netlify.app/)]
 
 ## Usage
 
