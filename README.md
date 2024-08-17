@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# False Ceiling Material Estimator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+**False Ceiling Material Estimator** is a web-based tool designed to calculate the quantity of materials required for false ceiling installations. This tool helps users estimate the number of props and materials needed based on input dimensions, ensuring accurate and efficient material management.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Accurate estimation of materials required for false ceiling projects
+- User-friendly interface to input dimensions and view results
+- Optimized algorithm utilizing dynamic programming and data structures
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React JS**: For building the user interface
+- **CSS**: For styling the application
+- **JavaScript**: For the core logic and algorithm implementation
+- **Dynamic Programming**: To optimize the material estimation process
 
-### `npm test`
+## File Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `.gitignore`: Git ignore file.
+- `package-lock.json`: Automatically generated file for managing dependencies.
+- `package.json`: Project metadata and dependencies.
+  
+### Build Directory
 
-### `npm run build`
+- `build/`: Contains the production-ready build files.
+  - `asset-manifest.json`: Manifest file for the build assets.
+  - `fce_logo.png`: Logo used in the application.
+  - `index.html`: Main HTML file for the build.
+  - `manifest.json`: Web app manifest for PWA support.
+  - `static/`: Contains static assets such as CSS, JS, and media files.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Public Directory
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `public/`: Contains public assets used in the development.
+  - `fce_logo.png`: Logo used in the application.
+  - `index.html`: Main HTML file for development.
+  - `manifest.json`: Web app manifest for PWA support.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Source Directory
 
-### `npm run eject`
+- `src/`: Contains the source code of the application.
+  - `App.css`: CSS styles for the main application component.
+  - `App.js`: Main application component.
+  - `App.test.js`: Tests for the main application component.
+  - `index.css`: Global CSS styles.
+  - `index.js`: Entry point for the React application.
+  - `setupTests.js`: Configuration for testing framework.
+  - `components/`: Contains React components for different functionalities.
+    - `FeetInches.css`, `FeetInches.js`, `FeetInchesResults.js`: Components for feet and inches input and results.
+    - `Header.js`: Header component.
+    - `Landing.css`, `Landing.js`: Landing page component.
+    - `Metre.css`, `Metre.js`, `MetreResults.js`: Components for meter input and results.
+    - `Results.css`: Styles for the results display.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/false-ceiling-material-estimator.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd false-ceiling-material-estimator
+    ```
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Hosting
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The application is deployed on Netlify. You can access the live version at:
 
-## Learn More
+[https://falseceilingmaterialestimator.netlify.app/](https://falseceilingmaterialestimator.netlify.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open the application in your web browser to input dimensions and view material estimates. The tool will calculate and display the required quantity of materials for false ceiling installations based on user inputs.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to fork the repository and submit pull requests. Contributions to enhance the functionality or improve the user interface are welcome!
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-### Making a Progressive Web App
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **React JS**: For the powerful and flexible framework used to build the application.
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+For any questions or feedback, please contact me at [your-email@example.com](mailto:your-email@example.com).
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

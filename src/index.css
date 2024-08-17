@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital@0;1&family=Nuosu+SIL&family=Roboto+Mono:ital,wght@1,100&family=Roboto:ital@1&family=Tiro+Bangla&display=swap');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  /* background-color: rgba(7, 96, 72, 0.571); */
+    background-image: url('./ceilingBg2.jpg');
+  /* background-image: url('./ceilingBg4.jpg'); */
+  /* background-image: url('./ceilingBg3.jpeg'); */
+
+  background-color: rgba(73, 71, 77, 0.585);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
+  font-family: 'Lora', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

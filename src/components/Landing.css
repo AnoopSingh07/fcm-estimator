@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital@0;1&family=Nuosu+SIL&family=Roboto+Mono:ital,wght@1,100&family=Roboto:ital@1&family=Tiro+Bangla&display=swap');
+
+
+.landing{
+    width: 70%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{ 
+    color: #f1deca;
+    text-shadow: 1px 1px 2px #3c3e49;
+    margin: 0px;
+    padding: 1%;
+  }
+
+button{
+    border-radius: 5px;
+    outline: none;
+    color:#f1deca;
+    background-color: #817e8e;
+    cursor: pointer;
+    padding: 2px 1px;
+    margin: 1px 0px;
+    width: 70%;
+    font-family: 'Lora', serif;
+    font-size: medium;
+    
+}
+button:hover::after{
+    background-color: #3a364b;
+}
